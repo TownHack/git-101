@@ -8,6 +8,10 @@ html, body {
 	word-wrap: normal;
 }
 
+.reveal small.smaller {
+	font-size: 1.5rem;
+}
+
 .reveal .col {
 	display: table-cell;
 	max-width: 50%;
