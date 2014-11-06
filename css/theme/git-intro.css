@@ -1,0 +1,15 @@
+.reveal h1 {
+	-moz-hyphens: none;
+	text-align: left;
+	word-wrap: normal;
+}
+
+.reveal .fRight {
+	float: right;
+}
+
+.reveal section img.borderless {
+	background: none;
+	border-width: 0;
+	box-shadow: none;
+}
