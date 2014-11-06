@@ -1,7 +1,18 @@
+html, body {
+	font-size: 10px;
+}
+
 .reveal h1 {
 	-moz-hyphens: none;
 	text-align: left;
 	word-wrap: normal;
+}
+
+.reveal .col {
+	display: table-cell;
+	max-width: 50%;
+	padding: 1rem;
+	vertical-align: top;
 }
 
 .reveal .fRight {
