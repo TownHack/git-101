@@ -2,6 +2,10 @@ html, body {
 	font-size: 10px;
 }
 
+.nowrap {
+	white-space: nowrap;	
+}
+
 .reveal h1 {
 	-moz-hyphens: none;
 	text-align: left;
