@@ -256,7 +256,7 @@
 					<section>
 						<h2>Getting Started</h2>
 						<h3>Let's clone a repository!</h3>
-						<pre><code data-trim>
+						<pre><code data-trim class="bash">
 							git clone https://github.com/TownHack/git-101.git
 						</code></pre>
 					</section>
@@ -265,7 +265,7 @@
 				<section>
 					<section>
 						<h2>Starting From Scratch</h2>
-						<pre><code data-trim>
+						<pre><code data-trim class="bash">
 mkdir myproject
 cd myproject
 git init
@@ -274,7 +274,7 @@ git init
 
 					<section>
 						<h2>Add Your Changes</h2>
-						<pre><code data-trim>
+						<pre><code data-trim class="bash">
 touch README.md
 git add README.md
 						</code></pre>
@@ -282,21 +282,30 @@ git add README.md
 
 					<section>
 						<h2>Commit Locally</h2>
-						<pre><code data-trim>
+						<pre><code data-trim class="bash">
 							git commit -m "Add a README file to myproject"
 						</code></pre>
 					</section>
 
 					<section>
-
+						<h2>Set Remote</h2>
+						<pre><code data-trim class="bash">
+							git remote add origin https://github.com/&lt;user&gt;/&lt;repo&gt;.git
+						</code></pre>
 					</section>
 
 					<section>
 						<h2>Pull</h2>
+						<pre><code data-trim class="bash">
+							git pull
+						</code></pre>
 					</section>
 
 					<section>
 						<h2>Push Remotely</h2>
+						<pre><code data-trim class="bash">
+							git push
+						</code></pre>
 					</section>
 				</section>
 			</div>
