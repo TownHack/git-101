@@ -253,12 +253,40 @@
 							</tbody>
 						</table>
 					</section>
+
 					<section>
-						<h2>Getting Started</h2>
 						<h3>Let's clone a repository!</h3>
 						<pre><code data-trim class="bash">
 							git clone https://github.com/TownHack/git-101.git
 						</code></pre>
+					</section>
+
+					<section>
+						<h3>Make a Change...</h3>
+						<h4>index.html</h4>
+						<pre><code data-trim class="html">
+&lt;p&gt;
+	&lt;small&gt;
+		Presented by {{Your Name Here}}
+		at
+		&lt;a href="https://townhack.co"&gt;
+			Town Hack Columbus
+		&lt;/a&gt;
+		2014
+	&lt;/small&gt;
+&lt;/p&gt;
+						</code></pre>
+					</section>
+
+					<section>
+						<h3>...Wait, That's Not Right - Revert That!</h3>
+						<pre><code data-trim class="bash">
+git checkout index.html
+						</code></pre>
+						<aside class="notes">
+							This would be a good time to mention tab-completion
+							and mention the diversity of the checkout command.
+						</aside>
 					</section>
 				</section>
 
